@@ -2,3 +2,54 @@
     margin: 0;
     padding: 0;
 }
+
+/* Capa Gereral */
+body {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* seccion navbar y carrousel*/
+.navbar {
+    /* background-color: transparent; */
+    background-color: #29A3AE;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+
+
+.boton-carrusel {
+    width: 6%;
+}
+
+/* Seccion quienes somos?*/
+#quienesSomos i {
+    background-color: #4cc9f0;
+    width: 410px;
+}
+
+/* seccion cards*/
+#destacados {
+    background-color: black;
+}
+
+.card-body {
+    background-color: #4cc9f0;
+}
+
+.card-body p {
+    font-size: 1em;
+}
+
+/* footer*/
+.footer {
+    font-family: "Major Mono Display", monospace;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+
